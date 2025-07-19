@@ -30,3 +30,7 @@ MAP@3
 GPU要件
     提出がノートブック形式でありruntime制限があるっぽい
     一回簡単なモデルで提出テストした方が良い
+
+    https://www.kaggle.com/docs/notebooks#the-notebooks-environment
+    このコンペの説明のサイトのノートブック環境のところには GPU p100 か TPU v3-8 が使用可能とかいてある
+    そのため colab では TPU v2-8 というをつかってみることにした
