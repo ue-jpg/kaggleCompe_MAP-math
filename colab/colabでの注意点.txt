@@ -7,6 +7,11 @@ HagFa アクセス認証
 
 カスタムモデル作成時のエラー
 
+class GemmaForSequenceClassification(nn.Module):　の中
+
 hidden_sizeの取得失敗
 モデルに分類タスク用のヘッドを追加するときconfigファイルのエラーがでるもんだい
-自分でドキュメントから適切な値をハードコーディングしてくださいといわれた
+おそらくgeminiが解決した
+
+Expected input batch_size (4) to match target batch_size (1).
+謎のエラー　おそらくカスタムモデルとトレイナーとの相互作用でおこっている
