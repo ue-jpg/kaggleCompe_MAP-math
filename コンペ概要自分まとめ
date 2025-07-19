@@ -33,4 +33,7 @@ GPU要件
 
     https://www.kaggle.com/docs/notebooks#the-notebooks-environment
     このコンペの説明のサイトのノートブック環境のところには GPU p100 か TPU v3-8 が使用可能とかいてある
-    そのため colab では TPU v2-8 というをつかってみることにした
+
+base-modelの選択
+    コラボ環境でもメモリの制約上Gemma3nをつかうことはできなかった
+    実際にどこまでのモデルなら訓練を回せるかどうか検証する必要があると思う
