@@ -1,0 +1,11 @@
+gemma 3n e4b  i use decide
+
+gemini in colab write LoRA defining code
+it is assume success
+
+change runtime  to  TPU v2-8 for kaggle notebook special enbironment
+bad main code exaust memory   why?
+and i assume gemini write weirdo code
+
+i think gemini miss mode re-difinig for classification task
+bad i am not sure...
