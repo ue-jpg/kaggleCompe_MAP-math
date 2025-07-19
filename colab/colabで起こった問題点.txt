@@ -19,3 +19,12 @@ hidden_sizeの取得失敗
 
 Expected input batch_size (4) to match target batch_size (1).
 謎のエラー　おそらくカスタムモデルとトレイナーとの相互作用でおこっている
+
+
+カスタムモデルの構造
+
+base-model Gemma3n-e4b
+peft
+target_modules=["q_proj", "k_proj", "v_proj", "o_proj"]
+trainable params: 4,612,096 || all params: 7,854,590,288 || trainable%: 0.0587
+custom head 6分類用linear
