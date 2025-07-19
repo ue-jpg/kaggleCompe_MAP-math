@@ -1,3 +1,0 @@
-runtime 選択
-google drive マウント
-HagFa アクセス認証
