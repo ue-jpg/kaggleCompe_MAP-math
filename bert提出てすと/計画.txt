@@ -10,7 +10,7 @@
 
 bertモデル詳細
   使用モデル
-    microsoft/deberta-v3-base （仮）
+    microsoft/deberta-v3-xsmall （仮）
 
   構成
     PEFT
