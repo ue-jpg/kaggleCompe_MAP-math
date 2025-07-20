@@ -1,0 +1,8 @@
+transformers
+torch
+scikit-learn
+pandas
+numpy
+protobuf
+sentencepiece
+accelerate
