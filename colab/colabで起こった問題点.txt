@@ -23,6 +23,9 @@ hidden_sizeの取得失敗
 Expected input batch_size (4) to match target batch_size (1).
 謎のエラー　おそらくカスタムモデルとトレイナーとの相互作用でおこっている
 
+コンピュート制限
+A100をつかっていたら100unit制限で終了した
+
 
 カスタムモデルの構造
 
