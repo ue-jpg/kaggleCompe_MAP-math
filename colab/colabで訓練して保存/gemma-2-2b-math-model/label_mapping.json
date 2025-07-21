@@ -1,0 +1,8 @@
+{
+  "0": "False_Correct",
+  "1": "False_Misconception",
+  "2": "False_Neither",
+  "3": "True_Correct",
+  "4": "True_Misconception",
+  "5": "True_Neither"
+}
