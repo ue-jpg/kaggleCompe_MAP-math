@@ -98,5 +98,5 @@ result
     Gemma2-2b-improved_prompts_QLoRA
         base Gemma2-2b-it QLoRA適用
         プロンプト改良　明確な指示かつ全ラベル提示
-        訓練時間 約8時間
+        訓練時間 約6時間
         map ?
