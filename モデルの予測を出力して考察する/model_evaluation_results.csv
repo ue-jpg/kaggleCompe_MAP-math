@@ -1,0 +1,160 @@
+QuestionId,QuestionText,MC_Answer,StudentExplanation,Category,predicted_category,is_correct,max_probability,prob_False_Correct,prob_False_Misconception,prob_False_Neither,prob_True_Correct,prob_True_Misconception,prob_True_Neither
+109465,"The probability of an event occurring is \( 0.9 \).
+
+Which of the following most accurately describes the likelihood of the event occurring?",Likely,"i think it's b because if it's certain, you're saying that it will happen 100%;however, the number is 0.9 and it isn't ""certain"" so therefore it would be likely",True_Correct,True_Correct,True,0.9943223,0.00023383349,3.3005017e-05,1.1530835e-05,0.9943223,0.0002956586,0.0051037143
+33474,"Sally has \( \frac{2}{3} \) of a whole cake in the fridge. Robert eats \( \frac{1}{3} \) of this piece. What fraction of the whole cake has Robert eaten?
+Choose the number sentence that would solve the word problem.",\( \frac{2}{3}-\frac{1}{3} \),roberts takes half of the 2/3 so it is -,False_Neither,False_Neither,True,0.98693323,6.0519283e-06,0.013047848,0.98693323,3.1960777e-08,1.2367639e-05,4.5419293e-07
+32833,Calculate \( \frac{2}{3} \times 5 \),\( 3 \frac{1}{3} \),2 x 5 is 10 so its 10/3 and 10/3 is also 3 1/3,True_Correct,True_Correct,True,0.9996568,7.111788e-08,1.1807748e-10,4.1225332e-11,0.9996568,1.0950021e-06,0.00034199032
+32835,Which number is the greatest?,\( 6.2 \),because it is 6.2 not 6   6.079 ore  6.0001,True_Neither,True_Neither,True,0.94305074,1.0445734e-05,8.174844e-07,2.3664681e-05,0.055851478,0.0010628267,0.94305074
+32835,Which number is the greatest?,\( 6.2 \),because it is 6 and 2/10 and the others will be in 100 and 10000.,True_Neither,True_Correct,False,0.79559356,0.00023070822,0.00011069016,0.00030396788,0.79559356,0.0048693083,0.19889174
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{3}{9} \),It is this because the totall number of triangles is 9 and there are 3 not shaded so it would be 3/9.,False_Misconception,False_Misconception,True,0.9998343,2.9066769e-05,0.9998343,0.00013654609,1.1077883e-08,5.67827e-08,8.093371e-12
+32829,\( 2 y=24 \) What is the value of \( y \) ?,\( 12 \),2 x 12 = 24 to the answer is b,True_Correct,True_Correct,True,0.9994894,3.632668e-07,4.5432233e-10,9.299216e-10,0.9994894,7.5530534e-06,0.00050264143
+33472,\( \frac{1}{3}+\frac{2}{5}= \),\( \frac{11}{15} \),i worked it out on a whiteboard and got the answer 11/15.,True_Neither,True_Neither,True,0.99928457,3.4505886e-06,2.83167e-07,6.934067e-06,0.00058691733,0.000117899544,0.99928457
+32829,\( 2 y=24 \) What is the value of \( y \) ?,\( 12 \),2y is 24 so to get y you have to half it which is 12,True_Correct,True_Correct,True,0.99999833,2.7738808e-10,7.92872e-12,1.9649154e-12,0.99999833,1.160832e-09,1.6514075e-06
+33472,\( \frac{1}{3}+\frac{2}{5}= \),\( \frac{11}{15} \),"you need a common denominator.this is 15 because both 3 and 5 go into 15.
+1/3= 5/15 and 2/5= 6/15
+5/15 + 6/15= 11/15",True_Correct,True_Correct,True,0.9999244,1.3132543e-06,4.6341572e-10,5.618296e-09,0.9999244,1.292899e-06,7.296108e-05
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{1}{3} \),there are 3 not shaded triangle over total 9 triangles: 3/9 simplest to 1/3.,True_Correct,True_Correct,True,0.99916613,2.4395948e-05,5.9394086e-08,2.5118464e-07,0.99916613,4.4836408e-05,0.0007644531
+33474,"Sally has \( \frac{2}{3} \) of a whole cake in the fridge. Robert eats \( \frac{1}{3} \) of this piece. What fraction of the whole cake has Robert eaten?
+Choose the number sentence that would solve the word problem.",\( \frac{1}{3} \times \frac{2}{3} \),because sally only has 1 third. a third of of a third is 2 ninths,True_Correct,True_Correct,True,0.9572641,0.00032611506,1.8317838e-05,4.140935e-06,0.9572641,0.004398099,0.037989125
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{3}{9} \),Because I counted all of the triangles and then looked at the ones that isn't shaded which there are three what is shade,False_Neither,False_Neither,True,0.954715,0.00046326456,0.044686783,0.954715,5.204611e-06,8.5877036e-05,4.37739e-05
+32833,Calculate \( \frac{2}{3} \times 5 \),\( 3 \frac{1}{3} \),im not sure of the answer,True_Neither,True_Neither,True,0.99856156,1.9045477e-06,5.86267e-07,0.00089454534,0.00046405877,7.732137e-05,0.99856156
+31778,\( \frac{A}{10}=\frac{9}{15} \) What is the value of \( A \) ?,\( 6 \),"You can simplify 9 over 15 to make 3 over 5 then to make the denominator 10, you need to multiply by 2. 3 times 2 is 6",True_Correct,True_Correct,True,0.9999901,2.1006232e-09,1.918193e-12,5.896157e-12,0.9999901,1.8963485e-06,8.023449e-06
+31778,\( \frac{A}{10}=\frac{9}{15} \) What is the value of \( A \) ?,\( 6 \),I used the common multiple of 30 and times 9 by 2 and figured out what fitted into 18 three times,True_Correct,True_Correct,True,0.79306066,0.00013607155,5.0344106e-06,1.5390933e-05,0.79306066,0.04959135,0.1571915
+33474,"Sally has \( \frac{2}{3} \) of a whole cake in the fridge. Robert eats \( \frac{1}{3} \) of this piece. What fraction of the whole cake has Robert eaten?
+Choose the number sentence that would solve the word problem.",\( \frac{1}{3} \times \frac{2}{3} \),the other answers don't make as much sense as the other answers do.,True_Neither,True_Neither,True,0.99756336,1.3676629e-06,2.5509098e-07,9.8465625e-06,0.0022203904,0.00020474994,0.99756336
+31777,"A box contains \( 120 \) counters. The counters are red or blue. \( \frac{3}{5} \) of the counters are red.
+How many red counters are there?",\( 72 \),because 120 divided by 5 then times by 3 is 72,True_Correct,True_Correct,True,0.99983776,8.827045e-07,2.903146e-09,3.5546435e-08,0.99983776,5.9225736e-06,0.00015529252
+32833,Calculate \( \frac{2}{3} \times 5 \),\( 3 \frac{1}{3} \),first i got 10 over 3 and then i had to divide 10 by 3 to get me 3 and 1/3,True_Correct,True_Correct,True,0.9991798,1.9919564e-07,3.6854921e-09,1.0948934e-09,0.9991798,3.5538903e-06,0.0008163435
+89443,"What number belongs in the box?
+\(
+(-8)-(-5)=
+\square\)",\( -13 \),I think it is this because its in brackets so you don't change it,False_Neither,False_Neither,True,0.99930286,1.2331418e-05,0.00045625298,0.99930286,2.7472439e-07,2.5408386e-05,0.00020289999
+32835,Which number is the greatest?,\( 6 \),because it is a hole number,False_Misconception,False_Misconception,True,0.9863533,0.0012391608,0.9863533,0.0124005815,2.1317817e-07,6.4382984e-06,2.8033395e-07
+32833,Calculate \( \frac{2}{3} \times 5 \),\( \frac{2}{15} \),i did 2/3 times 5/1 but i flipped the 5/1 to be 1/5 then i got my answer,False_Misconception,False_Misconception,True,0.99387896,0.0036692196,0.99387896,0.002433564,1.2123248e-06,1.6820497e-05,1.9270546e-07
+32829,\( 2 y=24 \) What is the value of \( y \) ?,\( 12 \),i think this because 24/2 is 12.,True_Correct,True_Correct,True,0.99998593,1.7823248e-07,1.6398652e-09,3.5176793e-09,0.99998593,3.6332108e-07,1.3515254e-05
+33474,"Sally has \( \frac{2}{3} \) of a whole cake in the fridge. Robert eats \( \frac{1}{3} \) of this piece. What fraction of the whole cake has Robert eaten?
+Choose the number sentence that would solve the word problem.",\( \frac{1}{3} \times \frac{2}{3} \),i just did what i thought,True_Neither,True_Neither,True,0.99964094,1.2400089e-06,4.972542e-07,0.00015420599,0.0001337245,6.9402755e-05,0.99964094
+33472,\( \frac{1}{3}+\frac{2}{5}= \),\( \frac{3}{8} \),take the product of 1 over 3 and 2 over 5 giving you 3 over 8.,False_Neither,False_Neither,True,0.9197825,0.0005510887,0.07961667,0.9197825,1.147443e-06,2.682111e-05,2.1673633e-05
+91695,"Dots have been arranged in these patterns: [Image: Pattern 1 consists of 6 dots, Pattern 2 consists of 10 dots, Pattern 3 consists of 14 dots and Pattern 4 consists of 18 dots] How many dots would there be in Pattern \( 6 \) ?",\( 22 \),4 dots are added to the pattern each time to create a new pattern.,False_Misconception,False_Misconception,True,0.99487656,0.004425628,0.99487656,0.0006975646,1.242829e-07,1.4315191e-07,1.9522453e-10
+32835,Which number is the greatest?,\( 6.2 \),6.2 has 2 tenths the rest have none,True_Correct,True_Correct,True,0.9868988,7.06513e-05,2.9231583e-06,2.3248044e-06,0.9868988,0.0004837725,0.012541632
+32835,Which number is the greatest?,\( 6.2 \),going in order 2 is the biggest,True_Neither,True_Neither,True,0.9225584,1.5845459e-05,5.676198e-05,0.00026993378,0.069460705,0.007638335,0.9225584
+33474,"Sally has \( \frac{2}{3} \) of a whole cake in the fridge. Robert eats \( \frac{1}{3} \) of this piece. What fraction of the whole cake has Robert eaten?
+Choose the number sentence that would solve the word problem.",\( \frac{2}{3}-\frac{1}{3} \),i think the answer is this because it has got be a minus (-) and the numbers are 2/3 and 1/3 so the problem is 2/3-1/3=1/3,False_Misconception,False_Misconception,True,0.9997292,7.618009e-05,0.9997292,0.00019459985,6.928639e-11,4.8255597e-08,5.7845468e-11
+33471,A bag contains \( 24 \) yellow and green balls. \( \frac{3}{8} \) of the balls are yellow. How many of the balls are green?,\( 9 \),1/8 of 24 is 3 so 3 times 3 is 9,False_Misconception,False_Misconception,True,0.9997129,3.569038e-05,0.9997129,0.0002508436,1.750605e-07,4.117492e-07,7.91638e-08
+91695,"Dots have been arranged in these patterns: [Image: Pattern 1 consists of 6 dots, Pattern 2 consists of 10 dots, Pattern 3 consists of 14 dots and Pattern 4 consists of 18 dots] How many dots would there be in Pattern \( 6 \) ?",\( 22 \),"pattern 1=6
+pattern 2=10
+pattern 3=14 
+pattern 4=18
+it goes up in fours and 18 add 4 is 22.",False_Misconception,False_Misconception,True,0.9922765,0.0006636806,0.9922765,0.0068430286,0.00021175647,5.1222814e-06,3.9814072e-08
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{1}{3} \),I think this because this equalatiral triangle is split into 9ths. Three fractions of this shape are not shaded so the fraction of shaded pieces is 3/9. Simplified it is 1/3.,True_Correct,True_Correct,True,0.92653143,0.0003646133,2.3430614e-06,9.55809e-06,0.92653143,0.0033416515,0.06975038
+76870,This is part of a regular polygon. How many sides does it have? [Image: A diagram showing an obtuse angle labelled 144 degrees],\( 6 \),if you do it in you head or draw it it wont have 10 side since 10 side would be shorter than 144.,False_Neither,False_Neither,True,0.9934691,0.00089932594,0.0055110045,0.9934691,1.709097e-06,3.9949668e-05,7.9041376e-05
+31774,Calculate \( \frac{1}{2} \div 6 \),\( \frac{1}{12} \),"By using the keep, flip change method, I got the answer of 1/12.",True_Correct,True_Correct,True,0.9985298,2.9890822e-07,8.633842e-09,1.1689545e-08,0.9985298,1.6713407e-06,0.0014681104
+32833,Calculate \( \frac{2}{3} \times 5 \),\( \frac{2}{15} \),i turned 5 to a fraction then did kfc,False_Misconception,False_Misconception,True,0.7005333,0.0017940234,0.7005333,0.29766613,3.8481585e-06,2.1652747e-06,4.7097774e-07
+31774,Calculate \( \frac{1}{2} \div 6 \),\( \frac{6}{2} \),"divide means ""of"" so you have to times the numerator by the integer",False_Misconception,False_Misconception,True,0.9189152,0.00015404526,0.9189152,0.08091884,1.0500136e-06,1.0524744e-05,3.1023663e-07
+32829,\( 2 y=24 \) What is the value of \( y \) ?,\( 12 \),b as when a number and a letter are next to each other it means they are multiplied together. so you do 24 ÷ 2 = 12,True_Correct,True_Correct,True,0.99979657,2.3275697e-07,2.4997981e-09,2.2978806e-09,0.99979657,2.3163418e-06,0.00020093852
+32833,Calculate \( \frac{2}{3} \times 5 \),\( 3 \frac{1}{3} \),i think this because i times then.,True_Neither,True_Neither,True,0.97110105,6.284979e-07,1.6745301e-07,2.7002977e-06,0.0287773,0.000118134005,0.97110105
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{3}{6} \),I counted thr shaded triangles and the un-shaded triangle.,False_Neither,False_Neither,True,0.7801704,0.00011472321,0.21971032,0.7801704,2.5548125e-08,2.2849817e-06,2.2194904e-06
+31774,Calculate \( \frac{1}{2} \div 6 \),\( 3 \),"I think this because 1/2 is a half of a fraction, number and decimals so a half of 6 is 3 and that's your answer",False_Misconception,False_Misconception,True,0.9998055,4.002982e-05,0.9998055,0.00015227745,1.1790252e-06,8.1127473e-07,9.372656e-08
+104665,"It takes \( 3 \) people a total of \( 192 \) hours to build a wall.
+
+How long would it take if \( 12 \) people built the same wall?",\( 48 \) hours,"because this question in indirect proportion, so to work out how long it would take for 1 person, you do 192 divided by 3 which is 576. then you do 576 divided by 12 which is 48 hours.",True_Correct,True_Correct,True,0.99991333,6.077231e-08,6.997117e-08,4.308843e-08,0.99991333,2.1544965e-06,8.442587e-05
+32835,Which number is the greatest?,\( 6.2 \),if you multiply them all by 10 you will get 60 62 60.79 60.001.,True_Neither,True_Neither,True,0.50957906,0.00059918355,5.0006015e-06,8.2983366e-05,0.4884945,0.0012392849,0.50957906
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{1}{3} \),there is 3/9 that are not shaded but in its simplest form it is1/3,True_Correct,True_Correct,True,0.9996823,2.345781e-05,6.4106287e-10,2.8821762e-10,0.9996823,1.2997796e-05,0.00028123116
+89443,"What number belongs in the box?
+\(
+(-8)-(-5)=
+\square\)",\( -13 \),because you took five off of it.,False_Neither,False_Neither,True,0.9945208,4.1039282e-05,0.0052911313,0.9945208,2.3545667e-07,5.439757e-05,9.2381895e-05
+89443,"What number belongs in the box?
+\(
+(-8)-(-5)=
+\square\)",\( -3 \),i calculated it and two negatives go lower,True_Neither,True_Neither,True,0.9941484,2.8832217e-06,8.416392e-06,0.0027112241,0.0018888509,0.0012402636,0.9941484
+33471,A bag contains \( 24 \) yellow and green balls. \( \frac{3}{8} \) of the balls are yellow. How many of the balls are green?,\( 15 \),"i think it’s because i first divided 24 x 8, and i got three and so then i realised that each one eighth represents three and so i saw the difference between the fractions and it was five so i did 5 x 3 = 15",True_Correct,True_Correct,True,0.9480479,4.399092e-05,3.818035e-06,1.1009084e-05,0.9480479,0.00077262963,0.05112077
+32833,Calculate \( \frac{2}{3} \times 5 \),\( 3 \frac{1}{3} \),I think this becausee 2 1/3 x 5/1 = 10/3 = 3 1/3.,True_Neither,True_Neither,True,0.6444154,3.7324717e-05,4.7760483e-07,6.1900837e-06,0.35496935,0.00057132746,0.6444154
+31778,\( \frac{A}{10}=\frac{9}{15} \) What is the value of \( A \) ?,\( 6 \),It is C because you divide it by 3 and then x it by 2,True_Correct,True_Correct,True,0.950715,8.316961e-05,3.2527394e-06,1.2358853e-05,0.950715,0.004274979,0.04491127
+32833,Calculate \( \frac{2}{3} \times 5 \),\( \frac{10}{15} \),you just times each by 5.,False_Misconception,False_Misconception,True,0.9971853,2.0392057e-05,0.9971853,0.0027942264,2.8443359e-09,4.281159e-08,1.2110247e-09
+33471,A bag contains \( 24 \) yellow and green balls. \( \frac{3}{8} \) of the balls are yellow. How many of the balls are green?,\( 15 \),because 24 divided by 8=3 8-3=5 so 5x3=15 so it has to be c,True_Correct,True_Correct,True,0.9740288,0.00015437076,3.0546094e-06,3.4244945e-07,0.9740288,0.00423472,0.021578614
+32829,\( 2 y=24 \) What is the value of \( y \) ?,\( 12 \),because if you do 2 times 12 it equals 24,True_Correct,True_Correct,True,0.9999778,5.5645064e-08,1.894837e-10,2.9570713e-10,0.9999778,5.000339e-07,2.1652657e-05
+104665,"It takes \( 3 \) people a total of \( 192 \) hours to build a wall.
+
+How long would it take if \( 12 \) people built the same wall?",\( 48 \) hours,if there are 4 times the amount of builders building the wall then it will take a 1/4 of the time which is 192 divided by 4 which gets you 48,True_Correct,True_Correct,True,0.9999796,1.8715699e-07,8.1452065e-08,2.9038514e-09,0.9999796,1.4796866e-07,2.0031104e-05
+104665,"It takes \( 3 \) people a total of \( 192 \) hours to build a wall.
+
+How long would it take if \( 12 \) people built the same wall?",\( 48 \) hours,there are 4 times more people so you can divide 192 by 4,True_Correct,True_Correct,True,0.99745125,3.3533994e-05,1.6441229e-05,3.398192e-06,0.99745125,0.00052109564,0.0019743347
+33472,\( \frac{1}{3}+\frac{2}{5}= \),\( \frac{11}{15} \),because when you add them together it equals 11 15ths,True_Neither,True_Neither,True,0.9951952,1.3253041e-05,6.2002478e-06,4.7455625e-05,0.0039197425,0.0008181144,0.9951952
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{1}{3} \),because 3 ninths is equal to 1 third.,True_Correct,True_Correct,True,0.99929845,3.4837234e-05,5.705149e-08,1.3672889e-08,0.99929845,9.672239e-05,0.0005698731
+33474,"Sally has \( \frac{2}{3} \) of a whole cake in the fridge. Robert eats \( \frac{1}{3} \) of this piece. What fraction of the whole cake has Robert eaten?
+Choose the number sentence that would solve the word problem.",\( \frac{1}{3}+\frac{2}{3} \),because you have to add the two fractions together,False_Neither,False_Neither,True,0.99806327,5.928744e-05,0.0018639056,0.99806327,2.6913696e-08,8.426954e-06,5.162349e-06
+89443,"What number belongs in the box?
+\(
+(-8)-(-5)=
+\square\)",\( 13 \),If you takr away the negative sign you get a plus.,False_Neither,False_Misconception,False,0.81576115,0.0037700862,0.81576115,0.17981882,0.0005671264,6.4553366e-05,1.8259081e-05
+31778,\( \frac{A}{10}=\frac{9}{15} \) What is the value of \( A \) ?,\( 4 \),10+5=15 therefore I assume that 9-5 = 4 is the numerator.,False_Misconception,False_Misconception,True,0.9979826,8.175312e-05,0.9979826,0.0019179481,2.2151173e-08,1.7758237e-05,3.7147217e-08
+89443,"What number belongs in the box?
+\(
+(-8)-(-5)=
+\square\)",\( -3 \),-8+5=-3 which is a positivee number.,True_Correct,True_Neither,False,0.79620194,0.000113124035,0.00052053336,0.0044972715,0.095471084,0.10319599,0.79620194
+91695,"Dots have been arranged in these patterns: [Image: Pattern 1 consists of 6 dots, Pattern 2 consists of 10 dots, Pattern 3 consists of 14 dots and Pattern 4 consists of 18 dots] How many dots would there be in Pattern \( 6 \) ?",\( 22 \),I just don't get it because there is no pattern 6.,False_Neither,False_Neither,True,0.9942549,0.00030187,0.0054288767,0.9942549,4.5466344e-08,1.5615917e-06,1.2844685e-05
+89443,"What number belongs in the box?
+\(
+(-8)-(-5)=
+\square\)",\( -3 \),i jumped from -8 to -5 and ended up with -3,True_Neither,True_Neither,True,0.9962251,1.931881e-06,4.769116e-07,0.00030599942,0.0015547405,0.001911769,0.9962251
+89443,"What number belongs in the box?
+\(
+(-8)-(-5)=
+\square\)",\( -3 \),because 2 negative numbers make a plus,True_Correct,True_Correct,True,0.99999654,1.1602948e-08,2.2959666e-08,3.2779935e-11,0.99999654,1.5865508e-06,1.9364816e-06
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{1}{3} \),3/9 simlifyed is 1/3 so answer is isA,True_Correct,True_Correct,True,0.99850637,5.528223e-07,1.4405829e-08,6.744819e-10,0.99850637,2.7687272e-05,0.0014652205
+91695,"Dots have been arranged in these patterns: [Image: Pattern 1 consists of 6 dots, Pattern 2 consists of 10 dots, Pattern 3 consists of 14 dots and Pattern 4 consists of 18 dots] How many dots would there be in Pattern \( 6 \) ?",\( 26 \),we can first find the nth term of the sequence which is 4n+2 and plug in 6 to n which would give you 26,True_Correct,True_Correct,True,0.997666,7.295182e-07,1.1023203e-08,2.051267e-08,0.997666,6.647475e-06,0.0023266827
+33472,\( \frac{1}{3}+\frac{2}{5}= \),\( \frac{11}{15} \),you just have to convert them then add them.,True_Neither,True_Neither,True,0.997056,4.700304e-07,9.0905244e-10,1.3559331e-07,0.0029267706,1.658307e-05,0.997056
+31774,Calculate \( \frac{1}{2} \div 6 \),\( \frac{1}{12} \),numerator stays the same but you times 6 and 2,True_Correct,True_Correct,True,0.7134526,5.4190386e-05,0.0002407349,5.0413346e-05,0.7134526,0.04022709,0.24597499
+91695,"Dots have been arranged in these patterns: [Image: Pattern 1 consists of 6 dots, Pattern 2 consists of 10 dots, Pattern 3 consists of 14 dots and Pattern 4 consists of 18 dots] How many dots would there be in Pattern \( 6 \) ?",\( 26 \),i know this because it keeps adding another line of 4 dots so it would be 4 x 6 + 2 = 26,True_Correct,True_Correct,True,0.9822886,8.5207175e-06,3.6096537e-06,2.5829504e-06,0.9822886,0.00022502526,0.017471561
+31774,Calculate \( \frac{1}{2} \div 6 \),\( \frac{1}{12} \),because i did keep change flip,True_Correct,True_Correct,True,0.99991894,3.1654898e-07,3.3265396e-10,1.1501263e-09,0.99991894,8.343323e-06,7.236515e-05
+32835,Which number is the greatest?,\( 6.2 \),"this is technically six point two zero which if you wish is twenty which is bigger than seven, zero and zero point zero one",True_Correct,True_Neither,False,0.5725315,0.0005989504,0.00011591424,0.00019699163,0.41083062,0.015726024,0.5725315
+91695,"Dots have been arranged in these patterns: [Image: Pattern 1 consists of 6 dots, Pattern 2 consists of 10 dots, Pattern 3 consists of 14 dots and Pattern 4 consists of 18 dots] How many dots would there be in Pattern \( 6 \) ?",\( 26 \),"the pattern increases by 4 every time
+
+6-4=2
+
+4n+2
+
+4*6=24+2=26",True_Correct,True_Correct,True,0.9999907,7.8310484e-07,4.0459405e-09,4.1051815e-09,0.9999907,8.983797e-07,7.502247e-06
+31777,"A box contains \( 120 \) counters. The counters are red or blue. \( \frac{3}{5} \) of the counters are red.
+How many red counters are there?",\( 72 \),i think this because we have already done this so i know the answer,True_Neither,True_Neither,True,0.9991798,1.19134285e-07,3.9844505e-09,7.0241487e-07,0.00081820757,1.1483411e-06,0.9991798
+89443,"What number belongs in the box?
+\(
+(-8)-(-5)=
+\square\)",\( -3 \),-8 - 5 = my answer.,True_Neither,True_Neither,True,0.99799746,3.0487558e-06,6.7531837e-06,0.0014965585,5.943876e-05,0.00043669937,0.99799746
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{1}{3} \),because it is 3/9 not shaded but simplified this gives 1/3,True_Correct,True_Correct,True,0.9999609,8.890965e-06,8.8126745e-10,6.0651345e-10,0.9999609,2.9804924e-06,2.7224753e-05
+91695,"Dots have been arranged in these patterns: [Image: Pattern 1 consists of 6 dots, Pattern 2 consists of 10 dots, Pattern 3 consists of 14 dots and Pattern 4 consists of 18 dots] How many dots would there be in Pattern \( 6 \) ?",\( 26 \),because you just add 10 each time,True_Neither,True_Correct,False,0.5654954,0.00015512513,0.00014461155,6.0150065e-05,0.5654954,0.15581603,0.27832866
+31778,\( \frac{A}{10}=\frac{9}{15} \) What is the value of \( A \) ?,\( 4 \),because i was looking at what happened to the denominator and did it to my numerator backwards!,False_Neither,False_Misconception,False,0.7420693,0.001573899,0.7420693,0.25633568,1.0094575e-06,1.44036785e-05,5.759458e-06
+32833,Calculate \( \frac{2}{3} \times 5 \),\( 3 \frac{1}{3} \),2/3 times 5/1 is 10/3 which is simplified to 3 1/3.,True_Correct,True_Correct,True,0.9995283,1.4131772e-06,7.2099174e-11,2.8446515e-10,0.9995283,6.986561e-07,0.00046955387
+33472,\( \frac{1}{3}+\frac{2}{5}= \),\( \frac{3}{15} \),they both go into 15,False_Neither,False_Neither,True,0.98704857,0.0016394269,0.011291184,0.98704857,5.7906863e-08,1.8862768e-06,1.899827e-05
+32829,\( 2 y=24 \) What is the value of \( y \) ?,\( 12 \),because when you times 12 by 2 you get 12,True_Correct,True_Correct,True,0.9004877,9.616236e-06,7.841446e-07,2.0450027e-06,0.9004877,0.001940044,0.097559735
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{1}{3} \),there are 3 not shaded and 6 shade d which makes it 3/6=1/3.,True_Misconception,True_Neither,False,0.598611,0.00041260375,0.00018164825,0.00073160004,0.05602161,0.3440415,0.598611
+31778,\( \frac{A}{10}=\frac{9}{15} \) What is the value of \( A \) ?,\( 4 \),10 add 5 is 15 so 4 add 5 is 9,False_Misconception,False_Misconception,True,0.997806,0.00011489561,0.997806,0.0020717762,4.55922e-08,7.0576343e-06,2.4261692e-07
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{3}{9} \),there are 9 triangles and there are 3 not shaded.,False_Misconception,False_Misconception,True,0.99867284,0.00022105193,0.99867284,0.0011054389,2.131174e-08,6.618769e-07,5.4798153e-09
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{1}{3} \),"3/9 of the shape is not shaded, in its simplest form, 1/3",True_Correct,True_Correct,True,0.9997756,8.785745e-06,1.8692392e-10,8.0227706e-11,0.9997756,1.616873e-06,0.000213982
+33474,"Sally has \( \frac{2}{3} \) of a whole cake in the fridge. Robert eats \( \frac{1}{3} \) of this piece. What fraction of the whole cake has Robert eaten?
+Choose the number sentence that would solve the word problem.",\( \frac{2}{3}-\frac{1}{3} \),2/3 -1/3 is 1/3 which is how much robert ate,False_Misconception,False_Misconception,True,0.99994254,1.8482915e-05,0.99994254,3.8927603e-05,5.7647918e-09,1.2334457e-08,4.4253312e-10
+32835,Which number is the greatest?,\( 6.2 \),it has 6 wholes and 2 tenths and the others have 0 tenths,True_Correct,True_Correct,True,0.9924885,0.00014874397,1.1448396e-05,1.1439371e-05,0.9924885,0.0017403777,0.0055994536
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{1}{3} \),1 out of every 3 isn't coloured,True_Correct,True_Correct,True,0.99750715,6.2254e-06,5.4233254e-07,7.261241e-07,0.99750715,6.0830247e-05,0.0024244797
+32833,Calculate \( \frac{2}{3} \times 5 \),\( \frac{2}{15} \),you can do 5 x 3 which is 15 and then you times the denominator.,False_Neither,False_Misconception,False,0.59425914,0.00078443805,0.59425914,0.4049422,3.1174278e-07,1.3477826e-05,5.7429884e-07
+31777,"A box contains \( 120 \) counters. The counters are red or blue. \( \frac{3}{5} \) of the counters are red.
+How many red counters are there?",\( 60 \),120 divided by 5 is 20 snd 3x20 is 60.,False_Neither,False_Neither,True,0.9868231,0.002459614,0.010702448,0.9868231,1.2643191e-05,1.8114155e-06,4.87607e-07
+33471,A bag contains \( 24 \) yellow and green balls. \( \frac{3}{8} \) of the balls are yellow. How many of the balls are green?,\( 9 \),I think this is because you times by the top and dividee by The bottom.,False_Neither,False_Neither,True,0.959212,0.0020230243,0.038656503,0.959212,4.0813768e-05,1.7837903e-05,4.9887563e-05
+76870,This is part of a regular polygon. How many sides does it have? [Image: A diagram showing an obtuse angle labelled 144 degrees],\( 10 \),calculate exterior angle then do it from there,True_Neither,True_Neither,True,0.99287814,2.7224816e-05,1.1511995e-06,9.2917486e-05,0.0069303256,7.02171e-05,0.99287814
+104665,"It takes \( 3 \) people a total of \( 192 \) hours to build a wall.
+
+How long would it take if \( 12 \) people built the same wall?",\( 48 \) hours,3 times 192 equals 576 divided by 12 equals 48,True_Correct,True_Correct,True,0.99994934,5.843712e-08,3.2249687e-09,8.578909e-10,0.99994934,3.1248888e-07,5.01645e-05
+32833,Calculate \( \frac{2}{3} \times 5 \),\( 3 \frac{1}{3} \),you have 10 thirds but with that u have 9 wholes and 1 extra,True_Neither,True_Correct,False,0.49265233,0.00046421651,3.0453544e-05,0.00018086068,0.49265233,0.051925793,0.4547464
+76870,This is part of a regular polygon. How many sides does it have? [Image: A diagram showing an obtuse angle labelled 144 degrees],Not enough information,i chose d because we cannot tel l how many sides there are with only one part of it.,False_Misconception,False_Misconception,True,0.9925053,7.3357434e-05,0.9925053,0.0074196216,4.253006e-07,2.4093575e-07,1.0401959e-06
+91695,"Dots have been arranged in these patterns: [Image: Pattern 1 consists of 6 dots, Pattern 2 consists of 10 dots, Pattern 3 consists of 14 dots and Pattern 4 consists of 18 dots] How many dots would there be in Pattern \( 6 \) ?",\( 22 \),Each time a new column of 3 dots is added plus 1 there are 2 more spaces between each dot.,False_Misconception,False_Misconception,True,0.86169606,0.0073248735,0.86169606,0.13084538,2.1337848e-05,0.00010333451,8.911522e-06
+31778,\( \frac{A}{10}=\frac{9}{15} \) What is the value of \( A \) ?,\( 3 \),"Because it will be  3/5 because 3 times 3 = 9 and 3 times 5 = 15 
+
+So it’s 9/15",False_Misconception,False_Misconception,True,0.8976366,0.09507391,0.8976366,0.0066809347,0.00040139104,0.0002029059,4.2792567e-06
+31774,Calculate \( \frac{1}{2} \div 6 \),\( \frac{1}{12} \),keep change flip and it will be a,True_Correct,True_Correct,True,0.9889297,1.072776e-06,8.0261736e-07,3.7860278e-07,0.9889297,0.0005214116,0.010546656
+33474,"Sally has \( \frac{2}{3} \) of a whole cake in the fridge. Robert eats \( \frac{1}{3} \) of this piece. What fraction of the whole cake has Robert eaten?
+Choose the number sentence that would solve the word problem.",\( \frac{1}{3} \times \frac{2}{3} \),1/3 of 2/3 is equal to 1/3 x 2 1/3.,True_Correct,True_Correct,True,0.9972504,6.115528e-07,4.5982745e-08,8.387347e-09,0.9972504,7.0116585e-06,0.002741889
+76870,This is part of a regular polygon. How many sides does it have? [Image: A diagram showing an obtuse angle labelled 144 degrees],Not enough information,all you can see is one angle it could go anywhere,False_Misconception,False_Misconception,True,0.99762976,6.212278e-05,0.99762976,0.0023074478,8.9289436e-08,4.613681e-07,1.4587134e-07
+31774,Calculate \( \frac{1}{2} \div 6 \),\( \frac{1}{12} \),I think this because six is equal into 6/1 but you have to turn it into a times and for that you need to make 6/1 into 1/6 so then 1/2 multiplied by 1/6=1/12,True_Correct,True_Correct,True,0.999648,1.1084615e-07,8.337853e-09,2.2835238e-09,0.999648,8.55051e-06,0.0003433507
+33472,\( \frac{1}{3}+\frac{2}{5}= \),\( \frac{3}{15} \),you need to add at the top and times at he bottom.,False_Misconception,False_Misconception,True,0.7015062,0.0013354177,0.7015062,0.2971336,5.332333e-06,8.7432945e-06,1.06883035e-05
+31772,What fraction of the shape is not shaded? Give your answer in its simplest form. [Image: A triangle split into 9 equal smaller triangles. 6 of them are shaded.],\( \frac{3}{9} \),Because there is 9 triangles in total and 3 haven't been shaded in so there would be three out of 9 left and as a fraction it would be 3/9,False_Misconception,False_Misconception,True,0.9953695,0.00014048851,0.9953695,0.004489009,7.9921186e-08,8.1698226e-07,4.9101065e-09

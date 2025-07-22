@@ -10,7 +10,12 @@ sample_submission.csv形式
 
     True, False はMC_Answer が正しいかどうか
     Correct, Neither, Misconception は基本的に StudentExplanation から判断されるものと想定されているはず
+    Neitherの判定は怪しいものがある
     False_misconception に追加のラベルを貼る必要がある可能性があるが一旦無視
+
+Misconceptionの問題
+    これまで予測する必要性をそもそも感じないがスコアをあげたかったら考慮するべき
+    misconceptionだけを学習するモデルをつくり、モデルを２枚かませるのはどうだろうか
 
 評価
 MAP@3
@@ -19,7 +24,7 @@ MAP@3
     average( P(k) )
     P(k) は １つ目で 1, ２つ目で 1/2, ３つ目で 1/3 のはず
 
-使用モデル構成
+使用モデル
 
     Gemma3n
     重すぎてColab A100上でもout of memoryだった
@@ -33,12 +38,17 @@ MAP@3
     xsmallは比較的簡単にモデル定義から訓練までできた
     しかしkaggleのT4環境だとそれでも時間がかかった
 
-    LoRA
+LoRA
     勉強のためにLoRAをやってみようと思う
+    QLoRAという強化版もあるらしい
 
 特徴量抽出
 
     ここがこのコンペのほぼ全ての気がするがどういう特徴量をだすのか？
+
+    クリスデオットはcorrectかfalseかだけプロンプトの中にいれるだけでdeber-xsmallで0.93のスコアを出している
+    おそらくテストに含まれる問題はトレインに含まれているものと同じなのでこれは簡単にできる
+    しかし同じxsmallでこれをしなくても0.93のひともいるから誤差かもしれない
 
 提出形式
     提出がノートブック形式でありruntime制限があるっぽい
