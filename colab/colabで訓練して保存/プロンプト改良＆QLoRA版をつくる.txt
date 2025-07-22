@@ -1,0 +1,15 @@
+Gemma2_2b_no_misconcept.ipynb を参考にして
+プロンプトの改良　かつ　QLoRAを適用した新しいモデルの訓練をする
+
+プロンプトは
+prompt考える\final_compact_prompt.py
+にかかれているものをつかう
+
+さらにQLoRAを適用して訓練の効率化を狙う
+
+それ以外の設定は
+Gemma2_2b_no_misconcept.ipynb
+に全て従う
+
+Colabでの実行を想定しているので
+出来上がったモデルはdrive上にまた新しいモデルをつけて保存するようにしたい

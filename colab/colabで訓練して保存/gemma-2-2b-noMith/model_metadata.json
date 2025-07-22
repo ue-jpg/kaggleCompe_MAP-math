@@ -1,0 +1,22 @@
+{
+  "model_name": "google/gemma-2-2b-it",
+  "num_labels": 6,
+  "max_length": 512,
+  "task_type": "sequence_classification",
+  "architecture": "AutoModelForSequenceClassification",
+  "peft_applied": true,
+  "lora_config": {
+    "r": 16,
+    "lora_alpha": 32,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "task_type": "SEQ_CLS"
+  }
+}

@@ -1,0 +1,18 @@
+ミスコンセプションは仕方がないのでコンペの形式に従う
+
+入力プロンプトはどうするか分からないが、正直あまりできることはないように感じている
+
+コパイが勝手にプロンプトの案を考えた　すごい
+    processed_train_basic.csv - 基本形式
+    processed_train_instructional.csv - 指示明確型（推奨）
+    processed_train_few_shot.csv - 例示学習型（推奨）
+    processed_train_step_by_step.csv - 段階的思考型
+    processed_train_structured.csv - 構造化分析型
+    processed_train_contextual.csv - 教育文脈型
+
+やっぱりプロンプトは長い方がいいのかもしれない、訓練時間とのトレードオフなのかも
+
+指示明示型にありうるラベルを全て加えたものを採用しようと思う
+final_compact_prompt.py が最終的に採用したプロンプト
+これにfew shotを加えるパターンも考えられるが長くなりすぎるので一旦やめる
+今の時点で平均プロンプト長は3,000程度

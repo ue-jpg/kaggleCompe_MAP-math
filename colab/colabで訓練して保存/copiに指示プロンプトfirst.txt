@@ -1,0 +1,63 @@
+colabでモデルを訓練して保存するためのノートブックを作成する
+
+C:\Users\mouse\Desktop\P\learnMachineLearning\kaggleはじめてのコンペ\colabで訓練して保存\Gemma2-2b仮.ipynb
+を参考にする
+
+使用モデル
+google/gemma-2-2b-it
+訓練時LoRA適用
+分類タスク用のカスタムヘッドを定義
+訓練時はGPU A100を使用
+
+もとのモデルの定義
+def load_gemma_model(device):
+    """Gemma-2-2b-itモデルとトークナイザーの読み込み"""
+    print("\n" + "=" * 60)
+    print(f"🤖 Gemmaモデル読み込み: {MODEL_NAME}")
+    print("=" * 60)
+
+    try:
+        print("📝 Gemmaトークナイザー読み込み中...")
+        tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+
+        # パディングトークンの設定（Gemmaの場合必要）
+        if tokenizer.pad_token is None:
+            tokenizer.pad_token = tokenizer.eos_token
+            print("🔧 パディングトークンをEOSトークンに設定")
+
+        print(f"✅ トークナイザー読み込み完了")
+        print(f"🔖 パディングトークン: {tokenizer.pad_token}")
+        print(f"📏 語彙サイズ: {tokenizer.vocab_size:,}")
+
+        print("\n🧠 Gemmaモデル読み込み中...")
+
+        # 分類タスク用の設定
+        config = AutoConfig.from_pretrained(MODEL_NAME)
+        config.num_labels = NUM_LABELS
+        config.problem_type = "single_label_classification"
+
+        # Gemma-2-2b-itモデルを分類用に読み込み
+        model = AutoModelForSequenceClassification.from_pretrained(
+            MODEL_NAME,
+            config=config,
+            torch_dtype=torch.float16 if device.type == "cuda" else torch.float32,
+            device_map="auto" if device.type == "cuda" else None,
+        )
+
+        print(f"✅ Gemmaモデル読み込み完了!")
+
+        # モデル情報表示
+        total_params = sum(p.numel() for p in model.parameters())
+        trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
+
+        print(f"📊 分類クラス数: {NUM_LABELS}")
+        print(f"📈 総パラメータ数: {total_params:,}")
+        print(f"🎯 訓練可能パラメータ数: {trainable_params:,}")
+        print(f"💡 モデルサイズ: ~{total_params / 1e9:.2f}B parameters")
+
+        return model, tokenizer
+
+もとのノートブックから
+モデルを訓練して保存のみを行うように書き換える
+保存はgoogle drive とローカルにダウンロードする
+保存したモデルはあとでカグルにアップロードして使用するためもともとのモデルの定義にあうようにする

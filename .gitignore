@@ -29,6 +29,10 @@ Thumbs.db
 model-*.bin
 *.h5
 
+# Large CSV files (over 100MB)
+**/processed_train_instructional_detailed.csv
+**/processed_train_instructional_compact.csv
+
 # Temporary files
 *.tmp
 *.log
