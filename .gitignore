@@ -1,0 +1,34 @@
+# Large model files
+**/kaggle-ready-model/
+**/kaggle-ready-model/**
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+.venv/
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data files
+*.safetensors
+model-*.bin
+*.h5
+
+# Temporary files
+*.tmp
+*.log
