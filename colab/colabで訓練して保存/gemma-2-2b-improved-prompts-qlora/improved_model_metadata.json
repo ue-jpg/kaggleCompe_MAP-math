@@ -1,0 +1,43 @@
+{
+  "model_name": "google/gemma-2-2b-it",
+  "improved_model_name": "gemma-2-2b-improved-prompts-qlora",
+  "num_labels": 65,
+  "max_length": 1024,
+  "task_type": "sequence_classification",
+  "architecture": "AutoModelForSequenceClassification",
+  "improvements": {
+    "prompt_optimization": "final_compact_prompt.py based",
+    "qlora_applied": true,
+    "quantization": "4-bit",
+    "label_coverage": "65 labels including False_Correct:NA",
+    "prompt_features": [
+      "Early classification guidelines placement",
+      "Enhanced context structure",
+      "Comprehensive label coverage",
+      "Optimized token efficiency"
+    ]
+  },
+  "qlora_config": {
+    "r": 16,
+    "lora_alpha": 32,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ],
+    "task_type": "SEQ_CLS",
+    "quantization": "4-bit nf4",
+    "compute_dtype": "float16"
+  },
+  "training_info": {
+    "epochs": 3,
+    "batch_size": 2,
+    "gradient_accumulation": 16,
+    "learning_rate": 0.0001,
+    "optimization": "QLoRA + improved prompts"
+  }
+}

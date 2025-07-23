@@ -1,0 +1,42 @@
+{
+  "model_type": "merged_improved_qlora_model",
+  "base_model": "google/gemma-2-2b-it",
+  "peft_type": "QLoRA",
+  "num_labels": 65,
+  "created_for": "kaggle_offline_environment",
+  "usage": "Use AutoModelForSequenceClassification.from_pretrained() directly",
+  "improvements": {
+    "prompt_optimization": "final_compact_prompt.py based",
+    "qlora_applied": true,
+    "quantization": "4-bit nf4 (merged to float32)",
+    "label_coverage": "65 labels including False_Correct:NA",
+    "prompt_features": [
+      "Early classification guidelines placement",
+      "Enhanced context structure",
+      "Comprehensive label coverage",
+      "Optimized token efficiency"
+    ]
+  },
+  "original_qlora_config": {
+    "r": 16,
+    "lora_alpha": 32,
+    "target_modules": [
+      "gate_proj",
+      "down_proj",
+      "o_proj",
+      "v_proj",
+      "q_proj",
+      "k_proj",
+      "up_proj"
+    ],
+    "task_type": "SEQ_CLS"
+  },
+  "training_info": {
+    "epochs": 3,
+    "batch_size": 2,
+    "gradient_accumulation": 16,
+    "learning_rate": 0.0001,
+    "optimization": "QLoRA + improved prompts"
+  },
+  "created_from": "gemma-2-2b-improved-prompts-qlora"
+}
