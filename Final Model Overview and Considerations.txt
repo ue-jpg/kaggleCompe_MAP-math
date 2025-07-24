@@ -127,34 +127,35 @@ Classification:
 ## 💾 Model Artifacts
 
 ### Saved Components
-1. **QLoRA Adapters**: adapter_model.safetensors (lightweight adapters)
-2. **Tokenizer**: Complete tokenizer configuration
-3. **Label Mapping**: improved_label_mapping.json (65 labels)
-4. **Metadata**: Training configuration and improvement details
+2. **Kaggle-Ready Model**: Merged model files for direct deployment
+3. **Tokenizer**: Complete tokenizer configuration  
+4. **Label Mapping**: label_mapping.json (65 labels)
 
 ### File Structure
 ```
-gemma-2-2b-improved-prompts-qlora/
-├── adapter_config.json
-├── adapter_model.safetensors
-├── improved_label_mapping.json
-├── improved_model_metadata.json
-├── tokenizer files...
-└── training_args.bin
+
+# Kaggle-Ready Merged Model (for deployment)
+kaggle-ready-improved-qlora/
+├── config.json
+├── model.safetensors.index.json
+├── model-00001-of-00004.safetensors
+├── model-00002-of-00004.safetensors
+├── model-00003-of-00004.safetensors
+├── model-00004-of-00004.safetensors
+├── label_mapping.json
+├── kaggle_model_info.json
+└── tokenizer files...
+```
 
 ## 🚀 Deployment Instructions
 
-### For Development (with PEFT)
+### For Kaggle Submission (Recommended)
 ```python
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
-from peft import PeftModel
 
-# Load base model
-base_model = AutoModelForSequenceClassification.from_pretrained("google/gemma-2-2b-it")
-tokenizer = AutoTokenizer.from_pretrained("google/gemma-2-2b-it")
-
-# Load QLoRA adapters
-model = PeftModel.from_pretrained(base_model, "path/to/improved_model")
+# Load merged model directly (no base model download needed)
+model = AutoModelForSequenceClassification.from_pretrained("./kaggle-ready-improved-qlora")
+tokenizer = AutoTokenizer.from_pretrained("./kaggle-ready-improved-qlora")
 
 ---
 **Model Created**: July 23, 2025
