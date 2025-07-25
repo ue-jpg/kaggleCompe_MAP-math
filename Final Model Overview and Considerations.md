@@ -9,6 +9,8 @@ Despite using a significantly larger model (Gemma-2-2b-it with ~2.6B parameters)
 ### Performance Ceiling Observations
 Examining the leaderboard, most submissions appear to plateau around 0.94 MAP@3 score, indicating a potential performance ceiling for this competition. This plateau suggests fundamental limitations that are not easily overcome by simply scaling model size or improving training techniques.
 
+**Resource Constraints and Scalability**: It's important to note that MAP@3 scores don't necessarily improve linearly with model parameter count. If the goal were to improve scores simply by scaling up model size, it would require significantly larger computational resources and associated costs, which are not feasible in my current environment.
+
 ### Potential Underlying Issues
 
 #### Misconception Category Problems
@@ -75,6 +77,12 @@ The fundamental issue may not be model capacity but rather the labeling framewor
 - **Max Token Length**: 1024
 - **Training Time**: ~6 hours on A100 GPU
 
+### Training Environment
+- **Platform**: Google Colab Pro
+- **GPU**: NVIDIA A100 (40GB VRAM)
+- **Compute Units Consumed**: 50 units (~$5.00 USD cost)
+- **Code Backup**: Training code preserved in input section for reference
+
 ## 📝 Prompt Engineering Improvements
 
 ### Enhanced Prompt Structure
@@ -123,6 +131,19 @@ Classification:
 - **Gradient Checkpointing**: Memory optimization for long sequences
 - **Group Batching**: Efficient processing of variable-length inputs
 - **Mixed Precision**: bf16 for QLoRA stability
+
+## 🛠️ Development Environment
+
+### AI-Assisted Development
+- **Primary Tool**: GitHub Copilot for code generation and documentation
+- **Language Support**: English documentation and code comments (**author is non-native English speaker**)
+- **Code Coverage**: Majority of implementation assisted by Copilot, including model training, data processing, and submission notebooks
+
+### Training Infrastructure
+- **Cloud Platform**: Google Colab Pro with premium GPU access
+- **Hardware**: NVIDIA A100 GPU (40GB VRAM) for efficient QLoRA training
+- **Cost Management**: 50 compute units consumed (~$5.00 USD total cost)
+- **Code Preservation**: Complete training codebase backed up in input section for reproducibility
 
 ---
 **Model Created**: July 23, 2025
