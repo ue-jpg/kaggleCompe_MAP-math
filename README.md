@@ -41,8 +41,8 @@ git hub になれるためにわざわざリポジトリをつくった
 
 ## ファイル構成・提出物
 
-- **最終提出ノート**: `Final Model Overview and Considerations.md`
-- **コンペURL**: [MAP - Charting Student Math Misunderstandings](https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/overview)
+- **最終モデル概要＆考察**: `Final Model Overview and Considerations.md`
+- **最終提出ノート**: [Some considerations. Fine tuning Gemma2-2b-it.](https://www.kaggle.com/code/ueueue/some-considerations-fine-tuning-gemma2-2b-it)
 
 ### 1. ドキュメント・まとめ
 - `Final Model Overview and Considerations.md`: 最終モデルの詳細・工夫まとめ
