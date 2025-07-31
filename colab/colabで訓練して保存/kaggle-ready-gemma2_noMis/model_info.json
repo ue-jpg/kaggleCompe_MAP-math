@@ -1,8 +1,0 @@
-{
-  "model_type": "merged_peft_model",
-  "base_model": "google/gemma-2-2b-it",
-  "peft_type": "LORA",
-  "num_labels": 6,
-  "created_for": "kaggle_offline_environment",
-  "usage": "Use AutoModelForSequenceClassification.from_pretrained() directly"
-}
